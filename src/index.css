@@ -343,22 +343,6 @@ i {
   color: black;
 }
 
-/* .facebook_icon {
-  color: #0062d3;
-}
-.yahoo_icon {
-  color: rgb(152, 14, 152);
-}
-.instagram_icon {
-  color: #fff;
-  border-radius: 8px;
-  background: linear-gradient(-130deg, purple, orangered, yellow);
-}
-
-.twitter_icon {
-  color: #0062d3;
-} */
-
 @media (min-width: 768px) {
   .navbar-b.navbar-reduce .nav-item {
     padding-left: 10px;
@@ -395,3 +379,5 @@ i {
     margin-left: 0;
   }
 }
+
+
