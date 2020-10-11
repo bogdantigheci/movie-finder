@@ -20,7 +20,7 @@ export const getTopRatedMoviesError = (err) => ({
   err,
 });
 
-export const geTopRatedMovies = (currentPage) => (dispatch) => {
+export const fetchTopRatedMovies = (currentPage) => (dispatch) => {
   dispatch(getTopRatedMoviesPending());
   return axios
     .get(
@@ -44,7 +44,7 @@ export const getMovieGenresError = (err) => ({
   err,
 });
 
-export const getMovieGenres = () => (dispatch) => {
+export const fetchMovieGenres = () => (dispatch) => {
   dispatch(getMovieGenresPending());
   return axios
     .get(

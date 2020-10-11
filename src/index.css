@@ -90,7 +90,7 @@ a {
 
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.6);
   padding-top: 0;
   padding-bottom: 0;
   box-shadow: 0 0 1rem black;
@@ -221,7 +221,7 @@ a {
 
 .side-drawer {
   height: 100%;
-  background: blue;
+  background: rgba(0, 0, 0, 0.6);
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -379,5 +379,3 @@ i {
     margin-left: 0;
   }
 }
-
-
