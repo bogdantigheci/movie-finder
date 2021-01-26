@@ -24,7 +24,7 @@ export const fetchTopRatedMovies = (currentPage) => (dispatch) => {
   dispatch(getTopRatedMoviesPending());
   return axios
     .get(
-      `https://api.themoviedb.org/3/tv/top_rated?api_key=${process.env.REACT_APP_MOVIE_API_KEY}&language=en-US&page=${currentPage}`
+      `http://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_MOVIE_API_KEY}&language=en-US&page=${currentPage}`
     )
     .then((res) => {
       dispatch(getTopRatedMoviesSuccess(res.data));

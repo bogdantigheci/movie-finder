@@ -18,16 +18,9 @@ const toolbar = (props) => {
             />
           </div>
           <div className="toolbar__logo">
-            Some <span className="logo_title"> Title</span>
+            <span className="logo_title">Your Favorite </span>Movies & Shows
           </div>
           <div className="spacer" />
-          <div className="toolbar_navigation-items">
-            <ul className="navbar-nav">
-              <li className="nav-item nav-link">About</li>
-              <li className="nav-item nav-link">Work</li>
-              <li className="nav-item nav-link">Contact</li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
