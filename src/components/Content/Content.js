@@ -13,10 +13,12 @@ const Content = (props) => {
 
   React.useEffect(() => {
     props.fetchMovieGenres();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   React.useEffect(() => {
     props.fetchTopRatedMovies(pageIndex);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageIndex]);
 
   const changePage = () => {
