@@ -8,9 +8,9 @@ const sideDrawer = (props) => {
   return (
     <nav className={drawerClasses}>
       <ul className="navbar-nav">
-        <li className="nav-item nav-link">About</li>
-        <li className="nav-item nav-link">Work</li>
-        <li className="nav-item nav-link">Contact</li>
+        <li className="nav-item nav-link">Will</li>
+        <li className="nav-item nav-link">add more</li>
+        <li className="nav-item nav-link">Categories</li>
       </ul>
     </nav>
   );
